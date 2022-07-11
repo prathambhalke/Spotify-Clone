@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Varela&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(dj-marshmello\ background.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: 'Varela', sans-serif;
+}
+
+/* ! Navbar  */
+nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none
+}
+
+nav ul li {
+    padding: 12px;
+    cursor: pointer;
+}
+
+/* ! Navbar .icons */
+.fa-spotify {
+    color: #1DB954;
+    margin-right: 5px;
+    margin-left: 15px;
+}
+
+i {
+    font-weight: bolder;
+    font-size: 34px;
+}
+
+.logo {
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+}
+
+
+.container {
+    min-height: 74vh;
+    background-image: url('headphones.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    width: 70%;
+    display: flex;
+
+    margin: 20px auto;
+    border-radius: 12px;
+}
+
+.bottom {
+    position: sticky;
+    background-color: black;
+    height: 100px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#progressbar {
+    width: 80vw;
+    cursor: pointer;
+}
+
+/* ! Play pause .icons */
+.fa-backward-step {
+    margin-left: 15px;
+}
+
+.fa-circle-play {
+    margin-left: 5px;
+}
+
+.fa-forward-step {
+    margin-left: 5px;
+}
+
+.icons {
+    color: white;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+
+.songsitem {
+    background-color: rgb(188, 184, 184);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 30px;
+    margin: 12px;
+}
+
+.songsitem img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px dotted #1DB954;
+    margin: 0 3px;
+}
+
+.fa-play {
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: 27px
+}
+.fa-pause{
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: 27px
+}
+
+.timestamp {
+    cursor: pointer;
+    margin: 0 23px
+}
+
+.songitemcontainer {
+    margin-top: 25px;
+}
+
+.songinfo img {
+    width: 200px;
+    height: 40px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+    border-radius: 50px;
+    border: 2px dotted #1DB954;
+}
+
+.songinfo {
+    color: white;
+    position: absolute;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    left: 9vw;
+    top: 50px
+}
+
+.songlist h2 {
+    margin-left: 22px;
+    margin-top: 12px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.fa-circle-pause {
+    margin-left: 5px;
+}
